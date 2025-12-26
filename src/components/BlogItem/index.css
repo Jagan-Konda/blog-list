@@ -1,0 +1,29 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #9aa5b133;
+}
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: 'Roboto';
+  color: #12022f;
+  text-align: center;
+  font-size: 18px;
+}
+.date {
+  font-family: 'Roboto';
+  color: #9aa5b1;
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #9aa5b1;
+  font-size: 14px;
+  line-height: 26px;
+}
